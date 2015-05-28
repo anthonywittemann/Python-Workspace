@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+#above is path to the interpreter which the script will use
+
+print("Hello, World!")
