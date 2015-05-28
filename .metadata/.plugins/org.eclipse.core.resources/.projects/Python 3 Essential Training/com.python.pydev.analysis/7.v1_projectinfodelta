@@ -1,6 +1,10 @@
 INSTUPWorking.syntax
 /Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
-INFOS:&&2|1|2|0&&2|3|2|0
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0
+s=7
 egg=3
+func=4
+x=5
+y=6
 main=1
 Working.syntax=2

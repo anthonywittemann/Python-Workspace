@@ -8,7 +8,7 @@ Working.generator|1432793011000|/Users/anthonywittemann/Documents/PythonLynda/Py
 Working.exceptions|1432794401000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/exceptions.py
 Working.whileloop|1432776579000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/whileloop.py
 Working.simpleoop|1432793671000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/simpleoop.py
-Working.syntax|1432795841000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
+Working.syntax|1432796465000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
 Working.forloop|1432792257000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/forloop.py
 Working.oop3|1432794145000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/oop3.py
 Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/comments.py
@@ -32,7 +32,7 @@ Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Pyt
 9=Working.comments
 -- END DICTIONARY
 -- START TREE 1
-14
+18
 a|0|
 ani|2|AnimalActions!9@AnimalActions!17@
 b|0|
@@ -42,11 +42,15 @@ egg|1|egg!26@
 f|1|f!35@
 fh|2|fh!43@fh!51@
 fib|1|Fibonacci!33@
+fun|1|func!26@
 in_|4|in_the_forest!18@in_the_forest!10@in_the_doghouse!18@in_the_doghouse!10@
 isp|3|isprime!58@isprime!66@isprime!74@
 mai|4|main!74@main!26@main!10@main!18@
 per|2|Person!17@Person!9@
 pri|2|primes!66@primes!74@
+s|1|s!27@
+x|1|x!27@
+y|1|y!27@
 -- END TREE
 -- START TREE 2
 11
