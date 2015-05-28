@@ -5,55 +5,60 @@ Working.conditionals|1432776337000|/Users/anthonywittemann/Documents/PythonLynda
 Working.oop2|1432793946000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/oop2.py
 Working.function|1432792556000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/function.py
 Working.generator|1432793011000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/generator.py
-Working.exceptions|1432794340000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/exceptions.py
+Working.exceptions|1432794401000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/exceptions.py
 Working.whileloop|1432776579000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/whileloop.py
 Working.simpleoop|1432793671000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/simpleoop.py
+Working.syntax|1432795841000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
 Working.forloop|1432792257000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/forloop.py
 Working.oop3|1432794145000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/oop3.py
+Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/comments.py
 -- END DISKCACHE
 -- START DICTIONARY
-13
+15
 1=Working.oop2
-4=Working.exceptions
-3=Working.simpleoop
-10=Fibonacci.__init__
-6=Working.function
-7=Working.generator
-9=AnimalActions
-11=Duck
-8=Fibonacci
-5=Working.forloop
-12=Person
-13=Dog
+5=Working.exceptions
+4=Working.simpleoop
+12=Fibonacci.__init__
+7=Working.function
+8=Working.generator
+11=AnimalActions
+13=Duck
+3=Working.syntax
+10=Fibonacci
+6=Working.forloop
+14=Person
+15=Dog
 2=Working.oop3
+9=Working.comments
 -- END DICTIONARY
 -- START TREE 1
-13
+14
 a|0|
 ani|2|AnimalActions!9@AnimalActions!17@
 b|0|
 dog|2|Dog!17@Dog!9@
 duc|2|Duck!9@Duck!17@
-f|1|f!27@
-fh|2|fh!35@fh!43@
-fib|1|Fibonacci!25@
+egg|1|egg!26@
+f|1|f!35@
+fh|2|fh!43@fh!51@
+fib|1|Fibonacci!33@
 in_|4|in_the_forest!18@in_the_forest!10@in_the_doghouse!18@in_the_doghouse!10@
-isp|2|isprime!50@isprime!58@
-mai|2|main!10@main!18@
+isp|3|isprime!58@isprime!66@isprime!74@
+mai|4|main!74@main!26@main!10@main!18@
 per|2|Person!17@Person!9@
-pri|1|primes!58@
+pri|2|primes!66@primes!74@
 -- END TREE
 -- START TREE 2
 11
-__i|1|__init__!8&26@
-_do|1|_doAction!9&18@
-a|1|a!10&27@
-ani|1|animalName!9&18@
-b|1|b!10&27@
-bar|2|bark!9&10@bark!9&18@
-fea|2|feathers!9&10@feathers!9&18@
-fur|2|fur!9&10@fur!9&18@
-qua|2|quack!9&10@quack!9&18@
-ser|1|series!8&26@
-str|6|strings!11&19@strings!12&19@strings!13&19@strings!11&11@strings!12&11@strings!13&11@
+__i|1|__init__!10&34@
+_do|1|_doAction!11&18@
+a|1|a!12&35@
+ani|1|animalName!11&18@
+b|1|b!12&35@
+bar|2|bark!11&10@bark!11&18@
+fea|2|feathers!11&10@feathers!11&18@
+fur|2|fur!11&10@fur!11&18@
+qua|2|quack!11&10@quack!11&18@
+ser|1|series!10&34@
+str|6|strings!13&19@strings!14&19@strings!15&19@strings!13&11@strings!14&11@strings!15&11@
 -- END TREE
