@@ -27,13 +27,6 @@ def main():
     print(s)
     s = r"This is\n a string" # raw string
     n = 42
-    s = "This is {} a string".format(n) # python 3 variable insertion
-    s = "This is %s a string" % n # python 2 variable insertion
-    s = '''\
-    this is a string 
-    that spans
-    multiple lines
-    ''' # triple quotes allows a string to span several lines
-    print(s)
+    s = "This is {} a string".format(n) 
 
 if __name__ == "__main__": main()

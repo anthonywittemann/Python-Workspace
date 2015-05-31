@@ -29,11 +29,10 @@ def main():
     n = 42
     s = "This is {} a string".format(n) # python 3 variable insertion
     s = "This is %s a string" % n # python 2 variable insertion
-    s = '''\
+    s = ''' \
     this is a string 
     that spans
-    multiple lines
-    ''' # triple quotes allows a string to span several lines
+    multiple lines''' # triple quotes allows a string to span several lines
     print(s)
 
 if __name__ == "__main__": main()
