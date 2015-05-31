@@ -37,21 +37,8 @@ def main():
 #     print(s)
     
     # aggregate values with lists and tuples
-    x = (1, 2, 3) # tuple (immutable object)
-    print(x)
-    print(type(x))
-    x = [1, 2 , 3] # mutable list
-    x.append(5)
-    x.insert(0, -7)
-    print(x)
-    print(type(x))
-    s = 'string'
-    print(type(s), s[2])
-    print("String slice: ", s[2:4])
-    # all sequence types can be iterators in python
-    for s1 in s:
-        print(s1)
-        
-    # associative lists with dictionaries
+    s = (1, 2, 3) # tuple (immutable object)
+    print(s)
+    print(type(s))
 
 if __name__ == "__main__": main()

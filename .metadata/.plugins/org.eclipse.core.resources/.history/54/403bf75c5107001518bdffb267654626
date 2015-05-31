@@ -51,7 +51,5 @@ def main():
     # all sequence types can be iterators in python
     for s1 in s:
         print(s1)
-        
-    # associative lists with dictionaries
 
 if __name__ == "__main__": main()
