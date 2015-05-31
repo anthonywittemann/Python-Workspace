@@ -56,11 +56,8 @@ def main():
     day = { 'one': 1, 'two': 2, 'three': 3 }
     for k in day:
         print(k, day[k])    # not printed in a sorted order
-    day = dict(
-        one = 1, two = 2, three = 'three'
-    ) # alternate way for defining dictionaries
-    day['seven'] = 7
     for k in sorted(day.keys()):
         print(k, day[k])    # sorted in alphabetical order by keys
+    
     
 if __name__ == "__main__": main()

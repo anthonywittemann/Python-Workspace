@@ -4,7 +4,7 @@
 # Copyright 2010 The BearHeart Group, LLC
 
 def main():
-# integers and floating point #s
+    # integers and floating point #s
 #     print("This is the variables.py file.")
 #     num = 42
 #     print("Type: ", type(num))
@@ -22,7 +22,7 @@ def main():
 #     print("Integer Division Type: ", type(num), num) 
 #     num = float(num)        # typecasting is easy
     
-# strings
+    # strings
 #     s = "This is a string"
 #     print(s)
 #     s = r"This is\n a string" # raw string
@@ -36,31 +36,9 @@ def main():
 #     ''' # triple quotes allows a string to span several lines
 #     print(s)
     
-# aggregate values with lists and tuples
-#     x = (1, 2, 3) # tuple (immutable object)
-#     print(x)
-#     print(type(x))
-#     x = [1, 2 , 3] # mutable list
-#     x.append(5)
-#     x.insert(0, -7)
-#     print(x)
-#     print(type(x))
-#     s = 'string'
-#     print(type(s), s[2])
-#     print("String slice: ", s[2:4])
-#     # all sequence types can be iterators in python
-#     for s1 in s:
-#         print(s1)
+    # aggregate values with lists and tuples
+/
         
-#     associative lists with dictionaries
-    day = { 'one': 1, 'two': 2, 'three': 3 }
-    for k in day:
-        print(k, day[k])    # not printed in a sorted order
-    day = dict(
-        one = 1, two = 2, three = 'three'
-    ) # alternate way for defining dictionaries
-    day['seven'] = 7
-    for k in sorted(day.keys()):
-        print(k, day[k])    # sorted in alphabetical order by keys
-    
+    # associative lists with dictionaries
+
 if __name__ == "__main__": main()
