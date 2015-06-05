@@ -11,8 +11,6 @@ def main():
         four = 'fourth'
     )
     choice = 'one'
-    print(choices[choice]) # this doesn't work when 
-                        # the value supplied isn't in the dict
-                        
-    print(choices.get(choice, 'other')) # this fixes that problem
+    print(choices[choice])
+
 if __name__ == "__main__": main()
