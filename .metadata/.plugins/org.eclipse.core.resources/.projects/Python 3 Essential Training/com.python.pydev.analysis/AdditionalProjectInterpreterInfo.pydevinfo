@@ -2,6 +2,8 @@
 -- START DISKCACHE
 /Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/.metadata/.plugins/org.eclipse.core.resources/.projects/Python 3 Essential Training/com.python.pydev.analysis/v2_indexcache
 Working.conditionals|1432776337000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/conditionals.py
+Working.for|1433469357000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/for.py
+Working.loopcontrol|1276470530000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/loopcontrol.py
 Working.syntax|1432796619000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
 Working.variables|1433050377000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/variables.py
 Working.switch|1433057076000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/switch.py
@@ -9,12 +11,14 @@ Working.while|1276460120000|/Users/anthonywittemann/Documents/PythonLynda/Python
 Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/comments.py
 -- END DISKCACHE
 -- START DICTIONARY
-6
+8
 1=Working.conditionals
+7=Working.for
+6=Working.loopcontrol
 2=Working.syntax
 5=Working.variables
 4=Working.while
-6=Working.switch
+8=Working.switch
 3=Working.comments
 -- END DICTIONARY
 -- START TREE 1
@@ -24,7 +28,7 @@ b|1|b!11@
 egg|1|egg!18@
 fun|1|func!18@
 isp|1|isprime!26@
-mai|5|main!34@main!26@main!18@main!42@main!50@
+mai|7|main!34@main!26@main!18@main!42@main!50@main!58@main!66@
 pri|1|primes!26@
 s|1|s!19@
 x|1|x!19@
