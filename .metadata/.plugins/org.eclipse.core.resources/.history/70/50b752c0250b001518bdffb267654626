@@ -17,6 +17,5 @@ def main():
     
     for index, letter in enumerate("word"):
         print(index, letter)
-        if(letter == 'o'): print('Index {} is an o'.format(index))
 
 if __name__ == "__main__": main()
