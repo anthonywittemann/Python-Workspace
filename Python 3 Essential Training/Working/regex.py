@@ -9,26 +9,35 @@ def main():
     fh = open('raven.txt')
     
     # searching with regular expressions
+#     for line in fh:
+#         #find all the lines that have Lenore or Nevermore and print them
+#         if re.search('(Len|Neverm)ore', line):
+#             print(line, end='')
+#         
+#         #finding specific patterns in a set
+#         #prints out just the words
+#         match = re.search('(Len|Neverm)ore', line)
+#         if match:
+#             print(match.group())
+#     
+#     # search and replace
+#     for line in fh:
+#         # replace Lonore or Nevermore with ###
+#         # still prints other words as well
+#         print(re.sub('(Len|Neverm)ore', '###', line), end='')
+#         
+#         # again but only print out the lines in which the replace took place
+#         match = re.search('(Len|Neverm)ore', line)
+#         if match:
+#             print(line.replace(match.group(), '###'), end='')
+    
+    # re.compile - more efficient b/c it compiles pattern only once
+    pattern = re.compile('(Len|Neverm)ore', re.IGNORECASE)
     for line in fh:
         #find all the lines that have Lenore or Nevermore and print them
-        if re.search('(Len|Neverm)ore', line):
+        if re.search(pattern, line):
             print(line, end='')
-        
-        #finding specific patterns in a set
-        #prints out just the words
-        match = re.search('(Len|Neverm)ore', line)
-        if match:
-            print(match.group())
-    
-    # search and replace
-    for line in fh:
-        # replace Lonore or Nevermore with ###
-        # still prints other words as well
-        print(re.sub('(Len|Neverm)ore', '###', line), end='')
-        
-        # again but only print out the lines in which the replace took place
-        match = re.search('(Len|Neverm)ore', line)
-        if match:
-            print(line.replace(match.group(), '###'), end='')
+            # can also do substitutions on precompiled pattern
+            print(pattern.sub('###', line), end='')
     
 if __name__ == "__main__": main()
