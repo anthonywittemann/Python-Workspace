@@ -23,12 +23,7 @@ def main():
     # search and replace
     for line in fh:
         # replace Lonore or Nevermore with ###
-        # still prints other words as well
+        # still prints other words
         print(re.sub('(Len|Neverm)ore', '###', line), end='')
-        
-        # again but only print out the lines in which the replace took place
-        match = re.search('(Len|Neverm)ore', line)
-        if match:
-            print(line.replace(match.group(), '###'), end='')
     
 if __name__ == "__main__": main()
