@@ -7,7 +7,6 @@ import re
 
 def main():
     fh = open('raven.txt')
-    
     # searching with regular expressions
     for line in fh:
         #find all the lines that have Lenore or Nevermore and print them
