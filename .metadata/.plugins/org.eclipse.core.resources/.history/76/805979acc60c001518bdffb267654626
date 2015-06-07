@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+# exceptions.py by Bill Weinman [http://bw.org/]
+# This is an exercise file from Python 3 Essential Training on lynda.com
+# Copyright 2010 The BearHeart Gorup, LLC
+
+try:
+    fh = open('xlines.txt')
+    
+    
+    for line in fh.readlines():
+        print(line)
+        
+except IOError as e:
+    print("something bad happened: ({})".format(e))
+else:
+    # strips any trailing /n from the end of the string
+    # and prints out each line - same as end=''
+    for line in fh: print(line.strip()) 
+    # could also put everything from the else into the try
+    
+print("after badness")

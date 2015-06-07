@@ -6,7 +6,7 @@ Working.for|1433469357000|/Users/anthonywittemann/Documents/PythonLynda/Python-W
 Working.loopcontrol|1433469913000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/loopcontrol.py
 Working.syntax|1432796619000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
 Working.variables|1433050377000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/variables.py
-Working.regex|1433560172000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/regex.py
+Working.regex|1433560383000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/regex.py
 Working.switch|1433057076000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/switch.py
 Working.while|1276460120000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/while.py
 Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/comments.py
@@ -24,14 +24,16 @@ Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Pyt
 3=Working.comments
 -- END DICTIONARY
 -- START TREE 1
-10
+12
 a|1|a!11@
 b|1|b!11@
 egg|1|egg!18@
+fh|0|
 fun|1|func!18@
 isp|1|isprime!26@
 mai|8|main!34@main!26@main!42@main!18@main!50@main!58@main!66@main!74@
 pri|1|primes!26@
+rea|0|
 s|1|s!19@
 x|1|x!19@
 y|1|y!19@
