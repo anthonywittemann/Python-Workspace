@@ -6,22 +6,17 @@
 def main():
     testfunc(42)
     passFunc()
-    manyArgsFunc(23, 24)
 
-# optional arguments have default values
-def testfunc(number, another = None, yetAnother = 5): 
-    print('This is a test function', number, another, yetAnother)
+# optional arguements have default values
+def testfunc(number, another = None, yetAnother = 5):
     # testing for default value and can then after assign a value
     if another == None:
         another = 112
+        
     print('This is a test function', number, another, yetAnother)
     
 # this function serves as a stub to be filled in later
 def passFunc():
     pass
-
-def manyArgsFunc(*args):
-    for index, arg in enumerate(args):
-        print('Arg {}:'.format(index), arg)
 
 if __name__ == "__main__": main()

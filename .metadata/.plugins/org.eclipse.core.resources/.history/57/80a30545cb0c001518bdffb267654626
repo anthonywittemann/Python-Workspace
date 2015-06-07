@@ -21,7 +21,7 @@ def passFunc():
     pass
 
 def manyArgsFunc(*args):
-    for index, arg in enumerate(args):
-        print('Arg {}:'.format(index), arg)
+    for arg, value in args:
+        print('Arg {}:'.format(value), arg)
 
 if __name__ == "__main__": main()
