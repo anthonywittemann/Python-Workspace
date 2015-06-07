@@ -4,6 +4,8 @@
 Working.conditionals|1432776337000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/conditionals.py
 Working.for|1433469357000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/for.py
 Working.loopcontrol|1433469913000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/loopcontrol.py
+Working.exceptions|1433648710000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/exceptions.py
+Working.functions|1433650038000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/functions.py
 Working.syntax|1432796619000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
 Working.variables|1433050377000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/variables.py
 Working.regex|1433560383000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/regex.py
@@ -12,29 +14,33 @@ Working.while|1276460120000|/Users/anthonywittemann/Documents/PythonLynda/Python
 Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/comments.py
 -- END DISKCACHE
 -- START DICTIONARY
-9
+11
 1=Working.conditionals
-8=Working.for
-7=Working.loopcontrol
+10=Working.for
+9=Working.loopcontrol
+5=Working.exceptions
+6=Working.functions
 2=Working.syntax
-6=Working.variables
-5=Working.regex
+8=Working.variables
+7=Working.regex
 4=Working.while
-9=Working.switch
+11=Working.switch
 3=Working.comments
 -- END DICTIONARY
 -- START TREE 1
-12
+14
 a|1|a!11@
 b|1|b!11@
 egg|1|egg!18@
 fh|0|
 fun|1|func!18@
 isp|1|isprime!26@
-mai|8|main!34@main!26@main!42@main!18@main!50@main!58@main!66@main!74@
+mai|10|main!34@main!42@main!26@main!50@main!58@main!18@main!66@main!74@main!82@main!90@
+pas|1|passFunc!50@
 pri|1|primes!26@
-rea|0|
+rea|1|readfile!42@
 s|1|s!19@
+tes|1|testfunc!50@
 x|1|x!19@
 y|1|y!19@
 -- END TREE
