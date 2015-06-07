@@ -4,11 +4,9 @@
 # Copyright 2010 The BearHeart Group, LLC
 
 def main():
-#     testfunc(42)
-#     passFunc()
-#     manyArgsFunc(23, 24)
-#     namedArgsFunc(one = 1, two = 2)
-    allTogether(1,2,23,24,one=1,two=2)
+    testfunc(42)
+    passFunc()
+    manyArgsFunc(23, 24)
 
 # optional arguments have default values
 def testfunc(number, another = None, yetAnother = 5): 
@@ -25,17 +23,5 @@ def passFunc():
 def manyArgsFunc(*args):
     for index, arg in enumerate(args):
         print('Arg {}:'.format(index), arg)
-        
-# kwargs = keyword arguements
-def namedArgsFunc(**kwargs):
-    print('kwargs: ', kwargs['one'], kwargs['two'])
-
-# needs to be in the order regular params, *args and finally **kwargs
-def allTogether(num1, num2, *args, **kwargs):
-    print('Num1: ', num1, 'Num2: ', num2)
-    for index, arg in enumerate(args):
-        print('Arg {}:'.format(index), arg)
-    print('kwargs: ', kwargs['one'], kwargs['two'])
-    
 
 if __name__ == "__main__": main()
