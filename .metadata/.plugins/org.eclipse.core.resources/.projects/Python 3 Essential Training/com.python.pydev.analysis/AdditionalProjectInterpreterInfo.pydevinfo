@@ -9,49 +9,56 @@ Working.switch|1433057076000|/Users/anthonywittemann/Documents/PythonLynda/Pytho
 Working.loopcontrol|1433469913000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/loopcontrol.py
 Working.generator|1432793011000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/generator.py
 Working.functions|1433650740000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/functions.py
+Working.classes|1433751021000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/classes.py
 Working.syntax|1432796619000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/syntax.py
 Working.variables|1433050377000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/variables.py
 Working.while|1276460120000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/while.py
 Working.comments|1432795545000|/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/comments.py
 -- END DISKCACHE
 -- START DICTIONARY
-12
+15
 1=Working.conditionals
-11=Working.for
-10=Working.loopcontrol
-4=Working.generator
+12=Working.for
+8=Working.exceptions
+9=Working.regex
+13=Working.switch
+11=Working.loopcontrol
+5=Working.generator
 2=Working.functions
-7=Working.exceptions
-3=Working.syntax
-9=Working.variables
-8=Working.regex
-6=Working.while
-12=Working.switch
-5=Working.comments
+3=Working.classes
+14=Duck
+4=Working.syntax
+10=Working.variables
+15=Duck.__init__
+7=Working.while
+6=Working.comments
 -- END DICTIONARY
 -- START TREE 1
 18
 a|1|a!11@
 all|1|allTogether!18@
 b|1|b!11@
-duc|0|
-egg|1|egg!26@
+duc|1|Duck!25@
+egg|1|egg!34@
 fh|0|
-fun|1|func!26@
-isp|2|isprime!34@isprime!42@
-mai|10|main!50@main!58@main!42@main!18@main!66@main!26@main!74@main!82@main!90@main!98@
+fun|1|func!34@
+isp|2|isprime!42@isprime!50@
+mai|11|main!58@main!66@main!50@main!18@main!74@main!26@main!34@main!82@main!90@main!98@main!106@
 man|1|manyArgsFunc!18@
 nam|1|namedArgsFunc!18@
 pas|1|passFunc!18@
-pri|2|primes!34@primes!42@
-rea|1|readfile!58@
-s|1|s!27@
+pri|2|primes!42@primes!50@
+rea|1|readfile!66@
+s|1|s!35@
 tes|1|testfunc!18@
-x|1|x!27@
-y|1|y!27@
+x|1|x!35@
+y|1|y!35@
 -- END TREE
 -- START TREE 2
-2
-qua|0|
-wal|0|
+5
+__i|1|__init__!14&26@
+__v|0|
+_v|1|_v!15&27@
+qua|1|quack!14&26@
+wal|1|walk!14&26@
 -- END TREE

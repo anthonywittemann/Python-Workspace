@@ -19,8 +19,5 @@ def main():
     print(donald) # donald is an object of class Duck
     donald.quack()
     donald.walk()
-    frank = Duck(151)
-    frank.quack()
-    frank.walk()
 
 if __name__ == "__main__": main()
