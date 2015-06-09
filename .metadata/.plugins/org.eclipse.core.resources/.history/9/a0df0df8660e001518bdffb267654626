@@ -5,8 +5,7 @@
 
 class Duck:
     def __init__(self, **kwargs):
-        self._color = kwargs.get('color', 'white')
-        self._v = kwargs.get('value', 42)
+        
     
     # what the above constructor is really doing
 #     def __init__(self, value = None, color = 'white'):
@@ -31,7 +30,7 @@ def main():
     print(donald) # donald is an object of class Duck
     donald.quack()
     donald.walk()
-    frank = Duck(value = 151)
+    frank = Duck(151)
     frank.quack()
     frank.walk()
 
