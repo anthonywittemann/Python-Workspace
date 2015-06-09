@@ -1,14 +1,1 @@
-INSTUPWorking.classes
-/Users/anthonywittemann/Documents/PythonLynda/Python-Workspace-Lynda/Python 3 Essential Training/Working/classes.py
-INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&2|7|2|1&&2|8|2|1&&2|9|2|1&&3|4|2|10&&2|11|2|0
-setColor=9
-Duck.setColor=10
-_color=4
-Duck=1
-Working.classes=2
-getColor=8
-quack=6
-main=11
-__init__=3
-Duck.__init__=5
-walk=7
+DELSTRWorking.classes

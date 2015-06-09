@@ -42,6 +42,6 @@ def main():
     frank = Duck(value = 151, feet = 2)
     frank.quack()
     frank.walk()
-    print('feet:', frank.getVariable('feet'))
+    
 
 if __name__ == "__main__": main()

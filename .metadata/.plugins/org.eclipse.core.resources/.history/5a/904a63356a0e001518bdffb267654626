@@ -28,20 +28,16 @@ class Duck:
     def setColor(self, newColor):
         self._color = newColor
         
-    def getVariable(self, k):
-        return self.variables.get(k, None)
-    
-    def setVariable(self, k, v):
-        self.variables[k] = v
+    def getVariable(self, v):
+        return self.variables[v]
 
 def main():
     donald = Duck(value = 47, color = 'blue')
     print(donald) # donald is an object of class Duck
     donald.quack()
     donald.walk()
-    frank = Duck(value = 151, feet = 2)
+    frank = Duck(value = 151)
     frank.quack()
     frank.walk()
-    print('feet:', frank.getVariable('feet'))
 
 if __name__ == "__main__": main()
